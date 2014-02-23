@@ -71,7 +71,7 @@ namespace artisoko {
 			};
 
 			template<class type_l, template<class, class> class container_t = std::vector, template<class pipe_data> class additional_data = empty>
-			struct varveccontainer {
+			struct varveccontainer  {
 
 			private:
 
