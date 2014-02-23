@@ -88,27 +88,6 @@ namespace artisoko {
 
 				instances_s< typename boost::mpl::begin<type_l>::type > instances;
 
-				//template<class opt_t>
-				//struct foreach_s {
-
-				//	template<class instances_iter>
-				//	static void exec_foreach(const opt_t& op, typename instances_s<instances_iter>& instance) {
-				//		//std::cout << typeid(instance).name() << std::endl;
-				//		op(instance);
-				//		exec_foreach<boost::mpl::next<instances_iter>::type>(op, instance.next);
-				//	}
-				//	template<> static void exec_foreach<typename boost::mpl::end<type_l>::type>(const opt_t& opt, typename instances_s<typename boost::mpl::end<type_l>::type>& instance) {}
-
-				//	template<class instances_iter>
-				//	static bool exec_foreach_until(const opt_t& op, typename instances_s<instances_iter>& instance) {
-				//		if (op(instance)){
-				//			return true;
-				//		}
-				//		return exec_foreach_until<boost::mpl::next<instances_iter>::type>(op, instance.next);
-				//	}
-				//	template<> static bool exec_foreach_until<typename boost::mpl::end<type_l>::type>(const opt_t& opt, typename instances_s<typename boost::mpl::end<type_l>::type>& instance) { return false; }
-				//};
-
 			public:
 
 
