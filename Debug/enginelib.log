@@ -1,9 +1,0 @@
-﻿Build started 2014-02-23 13:09:24.
-     1>Project "C:\programming\enginelib\engine\enginelib\enginelib.vcxproj" on node 2 (Build target(s)).
-     1>Lib:
-         enginelib.vcxproj -> C:\programming\enginelib\engine\Debug\enginelib.lib
-     1>Done Building Project "C:\programming\enginelib\engine\enginelib\enginelib.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.03
