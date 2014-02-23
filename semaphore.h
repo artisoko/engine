@@ -12,7 +12,6 @@ namespace artisoko {
 				mutex mtx;
 				condition_variable cv;
 				int count;
-
 			public:
 				semaphore(int count_) :count(count_){ ; }
 				void notify()
