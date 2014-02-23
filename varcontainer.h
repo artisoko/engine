@@ -47,7 +47,7 @@ namespace artisoko {
 						if (op(instance)){
 							return true ; 
 						}
-						exec_foreach_until<boost::mpl::next<instances_iter>::type>(op, instance.next);
+						return exec_foreach_until<boost::mpl::next<instances_iter>::type>(op, instance.next);
 					}
 					template<> static bool exec_foreach_until<typename boost::mpl::end<type_l>::type>(const opt_t& opt, typename instances_s<typename boost::mpl::end<type_l>::type>& instance) { return false; }
 				};
@@ -63,7 +63,7 @@ namespace artisoko {
 				// execute predicate on each var member until it returns false
 				template<class predicate_t>
 				bool foreach_until_returns_true(const predicate_t& pred) {
-					foreach_s<predicate_t>::exec_foreach_until(pred, instances);
+					return foreach_s<predicate_t>::exec_foreach_until(pred, instances);
 				}
 			};
 

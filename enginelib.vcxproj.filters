@@ -27,13 +27,13 @@
     <ClInclude Include="engine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="processor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="semaphore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="varcontainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pipeline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
