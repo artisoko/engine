@@ -20,6 +20,7 @@ namespace artisoko {
 					unique_lock<mutex> lck(mtx);
 					++count;
 					cv.notify_one();
+
 				}
 				void wait()
 				{

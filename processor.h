@@ -30,6 +30,8 @@ namespace artisoko {
 						count = deltacnt
 					};
 
+					// wawawa?
+
 					// void process(const part_t& part, typename part_t::delta_t& delta) = 0;
 				};
 
