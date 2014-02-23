@@ -29,6 +29,7 @@ namespace artisoko {
 					while (count == 0){
 						cv.wait(lck);
 					}
+
 					count--;
 				}
 				bool trywait()
