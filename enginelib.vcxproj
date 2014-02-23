@@ -75,6 +75,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="block.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="pipeline.h" />
     <ClInclude Include="semaphore.h" />
